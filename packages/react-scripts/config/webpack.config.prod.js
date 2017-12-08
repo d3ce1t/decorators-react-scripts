@@ -178,7 +178,16 @@ module.exports = {
               presets: [require.resolve('babel-preset-react-app')],
               // @remove-on-eject-end
               compact: true,
-              plugins: ['transform-decorators-legacy'],
+              plugins: [
+                'transform-decorators-legacy',
+                [
+                  'react-intl',
+                  {
+                    messagesDir: './build/messages',
+                    enforceDescriptions: false,
+                  },
+                ],
+              ],
             },
           },
           // The notation here is somewhat confusing.
@@ -302,7 +311,7 @@ module.exports = {
       },
       mangle: {
         safari10: true,
-      },        
+      },
       output: {
         comments: false,
         // Turned on because emoji and regex is not minified properly using default

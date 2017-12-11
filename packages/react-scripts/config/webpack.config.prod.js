@@ -183,7 +183,7 @@ module.exports = {
                 [
                   'react-intl',
                   {
-                    messagesDir: './src/lang/build',
+                    messagesDir: './tmp/react-intl/messages',
                     enforceDescriptions: false,
                   },
                 ],

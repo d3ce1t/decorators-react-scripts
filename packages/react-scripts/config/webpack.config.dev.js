@@ -179,7 +179,7 @@ module.exports = {
                 [
                   'react-intl',
                   {
-                    messagesDir: './build/messages',
+                    messagesDir: './src/lang/build',
                     enforceDescriptions: false,
                   },
                 ],

@@ -339,13 +339,10 @@ module.exports = {
                     },
                   },
                 ],
-              ],
-              cacheDirectory: true,
-              // Save disk space when time isn't as important
-              cacheCompression: true,
-              compact: true,
-              plugins: [
-                'transform-decorators-legacy',
+                [
+                  "@babel/plugin-proposal-decorators",
+                  { "legacy": true }
+                ],
                 [
                   'react-intl',
                   {
@@ -354,6 +351,10 @@ module.exports = {
                   },
                 ],
               ],
+              cacheDirectory: true,
+              // Save disk space when time isn't as important
+              cacheCompression: true,
+              compact: true,
             },
           },
           // Process any JS outside of the app with Babel.

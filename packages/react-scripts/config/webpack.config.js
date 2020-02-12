@@ -442,6 +442,17 @@ module.exports = function(webpackEnv) {
                       },
                     },
                   ],
+                  [
+                    "@babel/plugin-proposal-decorators",
+                    { "legacy": true }
+                  ],
+                  [
+                    'react-intl',
+                    {
+                      messagesDir: './tmp/react-intl/messages',
+                      enforceDescriptions: false,
+                    },
+                  ],
                 ],
                 // This is a feature of `babel-loader` for webpack (not Babel itself).
                 // It enables caching results in ./node_modules/.cache/babel-loader/

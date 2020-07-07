@@ -428,6 +428,7 @@ module.exports = function(webpackEnv) {
                     'react-intl',
                     {
                       messagesDir: './tmp/react-intl/messages',
+                      enforceDescriptions: false,
                     },
                   ],
                 ],

@@ -1,7 +1,7 @@
 {
   "name": "decorators-react-scripts",
   "version": "3.4.4",
-  "description": "Configuration and scripts for Create React App based on react-scripts 3.4.1.",
+  "description": "Configuration and scripts for Create React App based on react-scripts 3.4.4.",
   "repository": {
     "type": "git",
     "url": "https://github.com/d3ce1t/create-react-app.git",
@@ -72,15 +72,15 @@
     "react-dev-utils": "^10.2.1",
     "react-intl": "^3.12.0",
     "resolve": "1.15.0",
-    "resolve-url-loader": "3.1.1",
+    "resolve-url-loader": "3.1.2",
     "sass-loader": "8.0.2",
     "semver": "6.3.0",
     "style-loader": "0.23.1",
-    "terser-webpack-plugin": "2.3.5",
+    "terser-webpack-plugin": "2.3.8",
     "ts-pnp": "1.1.6",
     "url-loader": "2.3.0",
     "webpack": "4.42.0",
-    "webpack-dev-server": "3.10.3",
+    "webpack-dev-server": "3.11.0",
     "webpack-manifest-plugin": "2.2.0",
     "workbox-webpack-plugin": "4.3.1"
   },

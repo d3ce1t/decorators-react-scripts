@@ -4,8 +4,7 @@
   "description": "Configuration and scripts for Create React App based on react-scripts 3.4.4.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/d3ce1t/create-react-app.git",
-    "directory": "packages/react-scripts"
+    "url": "https://github.com/d3ce1t/decorators-react-scripts.git"
   },
   "license": "MIT",
   "engines": {
